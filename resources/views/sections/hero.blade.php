@@ -14,7 +14,7 @@
                         <a href="https://t.me/ELVIRA182" class="btn btn-outline-light d-flex align-items-center justify-content-center" target="_blank">
                             <i class="fab fa-telegram me-2"></i> Написать в Telegram
                         </a>
-                        <a href="tel:+79381071186" class="btn btn-accent d-flex align-items-center justify-content-center">
+                        <a href="tel:+79381071186" class="btn btn-outline-light d-flex align-items-center justify-content-center">
                             <i class="fas fa-phone me-2"></i> Позвонить
                         </a>
                     </div>
