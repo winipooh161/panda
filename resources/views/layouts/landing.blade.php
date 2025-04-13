@@ -25,9 +25,6 @@
         <meta name="twitter:description" content="Авторские татуировки от Эльвиры в Ростове-на-Дону. Флора, символизм, минимализм. Профессиональный подход с 5-летним опытом.">
         <meta name="twitter:image" content="{{ asset('images/og-image.jpg') }}">
 
-        <!-- Верификационные метатеги для вебмастеров -->
-        <meta name="google-site-verification" content="ВАШ_КОД_ВЕРИФИКАЦИИ_GOOGLE" />
-        <meta name="yandex-verification" content="ВАШ_КОД_ВЕРИФИКАЦИИ_ЯНДЕКС" />
 
         <!-- Мета-теги для поисковых систем -->
         <meta name="robots" content="index, follow">
