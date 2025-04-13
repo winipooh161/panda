@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Доступ запрещен | Алина - Тату-мастер в Ростове-на-Дону</title>
+    
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="theme-color" content="#BF9D73">
+    
+    <!-- Шрифты -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    
+    <style>
+        :root {
+            --primary: #212121;
+            --accent: #BF9D73;
+            --light: #ffffff;
+            --dark: #000000;
+            --gray: #f5f5f5;
+            --text-color: #555555;
+            --font-primary: 'Montserrat', sans-serif;
+            --font-heading: 'Cormorant Garamond', serif;
+        }
+        
+        body {
+            font-family: var(--font-primary);
+            color: var(--text-color);
+            background-color: var(--primary);
+            margin: 0;
+            padding: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            background-image: url('/images/error-bg.jpg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            position: relative;
+        }
+        
+        body::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.7);
+            z-index: 1;
+        }
+        
+        .error-container {
+            text-align: center;
+            padding: 2rem;
+            max-width: 600px;
+            background-color: rgba(33, 33, 33, 0.8);
+            border-radius: 10px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+            position: relative;
+            z-index: 2;
+        }
+        
+        h1 {
+            font-family: var(--font-heading);
+            color: var(--light);
+            font-size: 3.5rem;
+            margin-bottom: 0.5rem;
+        }
+        
+        h2 {
+            font-family: var(--font-heading);
+            color: var(--accent);
+            font-size: 2rem;
+            margin-top: 0;
+            margin-bottom: 2rem;
+        }
+        
+        p {
+            color: var(--light);
+            line-height: 1.6;
+            margin-bottom: 2rem;
+            font-size: 1.1rem;
+        }
+        
+        .btn {
+            display: inline-block;
+            background-color: var(--accent);
+            color: var(--light);
+            padding: 12px 28px;
+            text-decoration: none;
+            border: none;
+            font-weight: 500;
+            transition: all 0.3s ease;
+            border-radius: 0;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-right: 10px;
+            margin-bottom: 10px;
+        }
+        
+        .btn:hover {
+            background-color: var(--light);
+            color: var(--primary);
+            transform: translateY(-3px);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+        
+        .btn-outline {
+            background-color: transparent;
+            border: 2px solid var(--accent);
+        }
+        
+        .icon-container {
+            margin-bottom: 1.5rem;
+        }
+        
+        .icon-container i {
+            font-size: 4rem;
+            color: var(--accent);
+        }
+        
+        .error-code {
+            font-size: 7rem;
+            font-weight: bold;
+            color: var(--accent);
+            opacity: 0.2;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            z-index: -1;
+            font-family: var(--font-heading);
+        }
+        
+        .social-links {
+            margin-top: 2rem;
+        }
+        
+        .social-link {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            background-color: var(--accent);
+            color: var(--light);
+            margin: 0 5px;
+            font-size: 1.2rem;
+            transition: all 0.3s ease;
+        }
+        
+        .social-link:hover {
+            background-color: var(--light);
+            color: var(--accent);
+            transform: translateY(-3px);
+        }
+        
+        @media (max-width: 767px) {
+            h1 {
+                font-size: 2.5rem;
+            }
+            
+            h2 {
+                font-size: 1.3rem;
+            }
+            
+            .error-code {
+                font-size: 5rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="error-container">
+        <div class="icon-container">
+            <i class="fas fa-lock"></i>
+        </div>
+        <div class="error-code">403</div>
+        <h1>Доступ запрещен</h1>
+        <h2>У вас нет прав для просмотра этой страницы</h2>
+        <p>Данная страница недоступна для просмотра. Возможно, вы перешли по устаревшей ссылке или у вас недостаточно прав для доступа к запрашиваемому ресурсу.</p>
+        <div>
+            <a href="/" class="btn">Вернуться на главную</a>
+            <a href="/#contact" class="btn btn-outline">Связаться с нами</a>
+        </div>
+        <div class="social-links">
+            <a href="https://vk.com/" class="social-link" target="_blank"><i class="fab fa-vk"></i></a>
+            <a href="https://t.me/" class="social-link" target="_blank"><i class="fab fa-telegram"></i></a>
+            <a href="https://instagram.com/" class="social-link" target="_blank"><i class="fab fa-instagram"></i></a>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,41 @@
+User-agent: *
+Disallow: /admin/
+Disallow: /login
+Disallow: /register
+Disallow: /password/
+Disallow: /home
+Allow: /
+
+# Правила для Яндекс.Бота
+User-agent: Yandex
+Disallow: /admin/
+Disallow: /login
+Disallow: /register
+Disallow: /password/
+Disallow: /home
+Allow: /
+Host: tattoo-panda.ru
+Clean-param: utm_source&utm_medium&utm_campaign
+
+# Правила для Google
+User-agent: Googlebot
+Disallow: /admin/
+Disallow: /login
+Disallow: /register
+Disallow: /password/
+Disallow: /home
+Allow: /
+
+# Запрет на сканирование служебных файлов
+Disallow: /.env
+Disallow: /.htaccess
+Disallow: /composer.json
+Disallow: /composer.lock
+Disallow: /package.json
+Disallow: /package-lock.json
+Disallow: /webpack.mix.js
+Disallow: /phpunit.xml
+Disallow: /server.php
+
+# Карта сайта
+Sitemap: https://tattoo-panda.ru/sitemap.xml

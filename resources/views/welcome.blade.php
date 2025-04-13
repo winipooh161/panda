@@ -1,0 +1,11 @@
+@extends('layouts.landing')
+@section('content')
+    @include('sections.hero')
+    @include('sections.about')
+    @include('sections.portfolio')
+    @include('sections.process')
+    @include('sections.testimonials')
+    @include('sections.pricing')
+    @include('sections.faq')
+    @include('sections.studio')
+@endsection
